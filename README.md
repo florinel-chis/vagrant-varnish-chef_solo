@@ -14,15 +14,18 @@ I am using Vagrant 1.3.2 and Chef Solo for provisioning.
 ### Installation
 
 ```
-git clone 
+git clone https://github.com/florinel-chis/vagrant-varnish-chef_solo.git
+git submodule init
 git submodule update
 ```
 
 ### How to use it
 ```
+cd vagrant-varnish-chef_solo
 vagrant up
 vagrant provision
 ```
+then open [http://192.168.10.10/](http://192.168.10.10/) in your browser. This ip address is the one specified in `Vagrantfile`: `config.vm.network :private_network, ip: "192.168.10.10"`
 
 ### Vagrantfile
 In my case I use the following configuration: the web server installed on my local machine is listening to `80`and my ip address is `192.168.0.8`
