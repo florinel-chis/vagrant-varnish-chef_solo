@@ -1,0 +1,13 @@
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/varnish"]
+    path = cookbooks/varnish
+    url = https://github.com/opscode-cookbooks/varnish.git
+[submodule "cookbooks/git"]
+    path = cookbooks/git
+    url = https://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/zsh"]
+    path = cookbooks/zsh
+    url = https://github.com/opscode-cookbooks/zsh.git
+
